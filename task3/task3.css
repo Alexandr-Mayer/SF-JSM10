@@ -1,0 +1,54 @@
+.window {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 230px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
+
+.input_message {
+    height: 20px;
+    margin: 5px 2px 5px 2px ;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+.btn_message{
+    margin: 0 2px 5px 2px ;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+
+.btn_Location {
+    margin: 0 2px 5px 2px ;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+
+.btn_message:hover{
+    background-color: lightblue;
+}
+
+.btn_Location:hover{
+    background-color: lightblue;
+}
+
+.conteiner_message{
+    height: 430px;
+    border: 2px solid aqua;
+    margin: 0 2px 5px 2px ;
+    border-radius: 10px;
+}
+
+.message{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 10px;
+}
