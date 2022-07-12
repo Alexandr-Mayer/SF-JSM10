@@ -1,3 +1,6 @@
+body {
+    background-image: url(img/1611483865_27-p-fon-dlya-pdf-33.jpg);
+}
 .window {
     display: flex;
     flex-direction: column;
@@ -10,26 +13,27 @@
 }
 
 .input_message {
-    height: 20px;
+    height: 30px;
     margin: 5px 2px 5px 2px ;
     border-color: aqua;
     border-radius: 10px;
 }
 
-.btn_message{
+.btn_message {
     margin: 0 2px 5px 2px ;
-    background-color: white;
+    background-color: aqua;
     border: none;
     cursor: pointer;
     transition: background-color .2s linear;
+    height: 40px;
 }
-
 .btn_Location {
     margin: 0 2px 5px 2px ;
-    background-color: white;
+    background-color: aqua;
     border: none;
     cursor: pointer;
     transition: background-color .2s linear;
+    height: 40px;
 }
 
 .btn_message:hover{
